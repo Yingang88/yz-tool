@@ -36,6 +36,7 @@ namespace Image_Analysis_Tool
             std::cout << "mean value: " << mean.at<double>(i) << "\tstandard deviation: " << stddev.at<double>(i) << "\n"
                       << std::endl;
         }
+        return true;
     }
 
     /****This is an overloaded member function****/
@@ -74,6 +75,7 @@ namespace Image_Analysis_Tool
             std::cout << "mean value: " << mean.at<double>(i) << "\tstandard deviation: " << stddev.at<double>(i) << "\n"
                       << std::endl;
         }
+        return true;
     }
     /*********************************************/
 } // namespace Image_Analysis_Tool
